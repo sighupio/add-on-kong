@@ -1,16 +1,20 @@
-<h1>
-    <img src="https://github.com/sighupio/fury-distribution/blob/main/docs/assets/fury-epta-white.png?raw=true" align="left" width="90" style="margin-right: 15px"/>
-    Kubernetes Fury Kong
+<h1 align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sighupio/distribution/refs/heads/main/docs/assets/white-logo.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sighupio/distribution/refs/heads/main/docs/assets/black-logo.png">
+  <img alt="Shows a black logo in light color mode and a white one in dark color mode." src="https://raw.githubusercontent.com/sighupio/distribution/refs/heads/main/docs/assets/white-logo.png">
+</picture><br/>
+  Kong Add-On Module
 </h1>
 
 ![Release](https://img.shields.io/badge/Latest%20Release-v2.8.1-blue)
 ![License](https://img.shields.io/github/license/sighupio/fury-kubernetes-kong?label=License)
 ![Slack](https://img.shields.io/badge/slack-@kubernetes/fury-yellow.svg?logo=slack&label=Slack)
 
-<!-- <KFD-DOCS> -->
+<!-- <SD-DOCS> -->
 
-**Kubernetes Fury Kong** contains Kong Ingress Controller for Kubernetes and all the possible deployment options as an
-add-on for [Kubernetes Fury Distribution (KFD)][kfd-repo].
+**Kong Add-On Module** contains Kong Ingress Controller for Kubernetes and all the possible deployment options as an
+add-on for [SIGHUP Distribution (SD)][kfd-repo].
 
 ## Compatibility
 
@@ -49,7 +53,7 @@ The following Enterprise packages are included in the Fury Kubernetes Kong add-o
 [kfd-docs]: https://docs.kubernetesfury.com/docs/distribution/
 [compatibility-matrix]: https://github.com/sighupio/fury-kubernetes-kong/blob/master/docs/COMPATIBILITY_MATRIX.md
 
-<!-- </KFD-DOCS> -->
+<!-- </SD-DOCS> -->
 
 <!-- <FOOTER> -->
 
